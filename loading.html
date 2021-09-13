@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="5, url=./landing-1.html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+
+
+
+
+
+<body class="parent"></body>
+
+
+<div class="loader">
+    
+
+<center>
+    <h1>LOADING ...</h1>
+    <div>
+    
+    
+    <canvas id="loading" width="1400" height="315"></canvas>
+</div>
+
+<script src="https://unpkg.com/rive-js@0.7.6/dist/rive.min.js"></script>
+<script id=load>
+  // autoplays the first animation in the default artboard
+  new rive.Rive({
+    src: 'https://public.rive.app/community/runtime-files/781-1523-loadinganimation.riv',
+    canvas: document.getElementById('loading'),
+    autoplay: true,
+    layout: new rive.Layout({fit: 'none', alignment: 'center'}),
+  })
+</script></center>
+
+</div>    
+
+</body>
+
+<style> 
+
+.loader {
+    position: fixed;
+    background-color:black;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  
+
+
+
+
+
+    h1
+    {
+       padding-top: 10%; 
+       width: 100%;
+       color:white;
+    }
+    center{
+        width: 100%;
+    }
+   
+    body{
+        background-color:black;
+        overflow: hidden;
+    }
+</style>
