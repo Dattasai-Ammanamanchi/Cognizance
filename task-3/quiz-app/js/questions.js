@@ -2,57 +2,57 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "A girl is born when___ chromosomes are paired",
+    answer: "XX",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "XY",
+      "YY",
+      "BY",
+      "XX"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "who is the president of india",
+    answer: "Ram Nath Kovind",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "narendhi modi",
+      "K.DHANVINESH",
+      "Y.S JAGAN",
+      "Ram Nath Kovind"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "The state Government of Kerala has announced a two-day mourning to mark respect to which personality?",
+    answer: "Diego Maradonara",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "Diego Maradonara",
+      "C K Bhaskaran",
+      "Verghese Kurian",
+      " SP Balasubramanian"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "In which city, the Netaji Subhas Chandra Bose Museum is proposed to be set up?",
+    answer: "Kolkata",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "Cuttack",
+      "Kolkata",
+      "Mumbai",
+      " Pune"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "What is “Shinkansen” that was making the news recently",
+    answer: "High Speed Train",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "Buddhist Monument",
+      "High Speed Train",
+      "COVID Vaccine",
+      " New Planet"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
